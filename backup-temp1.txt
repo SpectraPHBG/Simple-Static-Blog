@@ -1,0 +1,257 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NerdFort</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/Normalise.css">
+    <link rel="stylesheet" href="css/Game-blog.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body class="bgimage">
+    <header class="parallax">
+        <nav class="flexcontainer" id="wrapper">
+            <div class="navlogoAll">
+                    <img id="icon" class="icon" src="../img/icon.png" alt="Error">
+                    <h1 id="logo" class="logo"> - NerdFort - </h1>
+            </div>
+            <ul>
+                <li><a id="current" href="Home.html">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="Submit.html">Submit article</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#jumphere"><button id="jumphere" class="jumpButton"></button></a>
+        <nav class="verticalnav">
+            <a href="#" id="sidebutton1">
+                <img class="buttonimgsize" src="img/facebook.png" alt="Error">
+                <img id="b1" class="buttonimgsize1" src="img/facebook1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton2">
+                <img class="buttonimgsize" src="img/twitter.png" alt="Error">
+                <img id="b2" class="buttonimgsize1" src="img/twitter1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton3">
+                <img class="buttonimgsize" src="img/linkedin.png" alt="Error">
+                <img id="b3" class="buttonimgsize1" src="img/linkedin1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton4">
+                <img class="buttonimgsize" src="img/reddit.png" alt="Error">
+                <img id="b4" class="buttonimgsize1" src="img/reddit1.png" alt="Error">
+            </a>
+        </nav>
+        <p id="headlinetext">  - NerdFort - </p>
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+::selection {
+    background: none; /* WebKit/Blink Browsers */
+  }
+p::selection,h1::selection,h2::selection,h3::selection,h4::selection,h5::selection,h6::selection {
+    background: #00d4d4;
+}
+html{ 
+    visibility:hidden; 
+    position: relative;
+    min-height: 100%;
+    scroll-behavior: smooth;
+}
+/*background image*/
+.bgimage{
+    background: url("../img/pagebg.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100%;
+    width: 100%;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    min-height: 100vh;
+    flex-direction: column;
+}
+.icon1{
+    display: flex;
+    width: 45px;
+    transition: all 0.1s;
+    position: absolute;
+    top: 7px;
+}
+.icon{
+    display: flex;
+    width: 45px;
+    position: absolute;
+    top: 7px;
+    margin-left: -35px;
+    visibility: hidden;
+    transition: all 0.1s;
+}
+.navlogoAll{
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: row nowrap;
+}
+/*header */
+.logo{
+    visibility: hidden;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 27px;
+    transition: all 0.1s;
+    color: #b29c8e;
+}
+.logo:hover, .logo1:hover, #headlinetext:hover, #headlinedesc:hover{
+    cursor: context-menu;
+}
+.flexcontainer{
+    transition: all 0.3s;
+    z-index: 1000;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+}
+.flexcontainer ul{
+    list-style: none;
+    display: flex;
+}
+.flexcontainer a{
+    width: 130px;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    line-height: 75px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+}
+.flexcontainer a:hover{
+    color: #00d4d4;
+    transition: color 0.3s ease 0s;
+}
+#current{
+    color: #00d4d4;
+}
+.buttonimgsize{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 40;
+}
+.buttonimgsize1{
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 40;
+    transition: visibility 0.3s ease 0s;
+
+}
+.buttonimgsize1::selection{
+    visibility: visible;
+    transition: visibility 0.3s ease 0s;
+}
+.verticalnav{
+    padding: 0;
+    position: fixed;
+    right: 2vw;
+    top: 8vh;
+    display: flex;
+    justify-content: flex-end;
+    flex-flow: column;
+    align-items: flex-end;
+    margin-right: 0%;
+    margin-top: 30vh;
+    width: 150px;
+    z-index: 5;
+}
+header #sidebutton1,#sidebutton2,#sidebutton3,#sidebutton4{
+    z-index: 2;
+    text-decoration: none;
+    margin: 4px 0 4px 0;
+    display: flex;
+    position: relative;
+    top: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 40px;
+    text-align: center;
+    transition: width 0.3s ease 0s;
+    overflow: hidden;
+}
+.logo1{
+    display: block;
+    margin-left: 45px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 27px;
+    color: black;
+    transition: all 0.3s;
+}
+.flexcontainer1{
+    transition: all 0.3s;
+    z-index: 1000;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    background: #dedede;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    box-shadow:0px 5px #00d4d4, 1px 4px 6px #484848;
+}
+.flexcontainer1 ul{
+    list-style: none;
+    display: flex;
+}
+.flexcontainer1 a{
+    width: 130px;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    line-height: 75px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+}
+.flexcontainer1 a:hover{
+    color: #00d4d4;
+    transition: color 0.3s ease 0s;
+}
+main{
+    z-index: 1;
+    margin: 105vh 80px 0px 80px;
+}

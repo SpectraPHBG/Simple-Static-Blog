@@ -1,0 +1,107 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NerdFort</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/Normalise.css">
+    <link rel="stylesheet" href="css/Game-blog.css">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+</head>
+
+<body class="bgimage">
+    <header class="parallax">
+        <nav class="flexcontainer" id="wrapper">
+            <div class="navlogoAll">
+                    <img id="icon" class="icon" src="../img/icon.png" alt="Error">
+                    <h1 id="logo" class="logo"> - NerdFort - </h1>
+            </div>
+            <ul>
+                <li><a id="current" href="Home.html">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="Submit.html">Submit article</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <a href="#jumphere"><button id="jumphere" class="jumpButton"></button></a>
+        <nav class="verticalnav">
+            <a href="#" id="sidebutton1">
+                <img class="buttonimgsize" src="img/facebook.png" alt="Error">
+                <img id="b1" class="buttonimgsize1" src="img/facebook1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton2">
+                <img class="buttonimgsize" src="img/twitter.png" alt="Error">
+                <img id="b2" class="buttonimgsize1" src="img/twitter1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton3">
+                <img class="buttonimgsize" src="img/linkedin.png" alt="Error">
+                <img id="b3" class="buttonimgsize1" src="img/linkedin1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton4">
+                <img class="buttonimgsize" src="img/reddit.png" alt="Error">
+                <img id="b4" class="buttonimgsize1" src="img/reddit1.png" alt="Error">
+            </a>
+        </nav>
+        <p id="headlinetext">  - NerdFort - </p>
+        <p id="headlinedesc">Game blog by gamers for gamers</p>
+    </header>
+    <main>
+        <section class="uppersection">
+            <div>
+                <p>
+                        In 1984 Los Angeles, a cyborg assassin known as a Terminator arrives from 2029 and steals clothes and guns. Kyle Reese, a human soldier sent back in time from the same year, arrives shortly afterwards. He steals clothes and weapons and evades the police. The Terminator begins systematically killing women named Sarah Connor, whose addresses it finds in the telephone directory. It tracks the last Sarah Connor to a nightclub, but Kyle rescues her. The pair steal a car and escape with the Terminator pursuing them in a police car.
+
+                        As they hide in a parking lot, Kyle explains to Sarah that an artificial intelligence defense network, known as Skynet, will become self-aware in the near future and initiate a nuclear holocaust. Sarah's future son John will rally the survivors and lead a resistance movement against Skynet and its army of machines. With the Resistance on the verge of victory, Skynet sent a Terminator back in time to kill Sarah before John is born, to prevent the formation of the Resistance. The Terminator, a Cyberdyne Systems Model 101, is an efficient killing machine with a powerful metal endoskeleton and an external layer of living tissue that makes it appear human.
+                        
+                        Kyle and Sarah are apprehended by police after another encounter with the Terminator. Criminal psychologist Dr. Silberman concludes that Kyle is paranoid and delusional. The Terminator repairs its body and attacks the police station, killing seventeen police officers in its attempt to locate Sarah. Kyle and Sarah escape, steal another car and take refuge in a motel, where they assemble pipe bombs and plan their next move. Kyle admits that he has been in love with Sarah since John gave him a photograph of her, and that he traveled through time to save her; reciprocating his feelings, Sarah kisses Kyle and they have sex.
+                        
+                        The Terminator kills Sarah's mother and impersonates her when Sarah, unaware of the Terminator's ability to mimic voices, attempts to contact her via telephone. When they realize it has reacquired them, they escape in a pickup truck while it chases them on a motorcycle. In the ensuing chase, Kyle is wounded by gunfire while throwing pipe bombs at the Terminator. Enraged‚ Sarah knocks the Terminator off its motorcycle but loses control of the truck, which flips over. The Terminator, now bloodied and badly damaged, hijacks a tank truck and attempts to run down Sarah, but Kyle slides a pipe bomb onto the tanker's hose tube, causing an explosion that burns the flesh from the Terminator's endoskeleton. It pursues them into a factory, where Kyle activates machinery to confuse the Terminator. He jams his final pipe bomb into the Terminator's abdomen, blowing it apart, injuring Sarah, and killing himself. The Terminator's torso reactivates and grabs Sarah. She breaks free and lures it into a hydraulic press, crushing it.
+                        
+                        Months later, a pregnant Sarah is traveling through Mexico, recording audio tapes to pass on to her unborn son, John. She debates whether to tell John that Kyle is his father. At a gas station, a boy takes an instant photograph of her and she buys it — the same photograph that John will give to Kyle. Before driving off, the young boy warns Sarah to be careful of the approaching storm clouds. Sarah looks ahead and drives fearlessly towards it.
+                </p>
+                <p>
+                        In 1984 Los Angeles, a cyborg assassin known as a Terminator arrives from 2029 and steals clothes and guns. Kyle Reese, a human soldier sent back in time from the same year, arrives shortly afterwards. He steals clothes and weapons and evades the police. The Terminator begins systematically killing women named Sarah Connor, whose addresses it finds in the telephone directory. It tracks the last Sarah Connor to a nightclub, but Kyle rescues her. The pair steal a car and escape with the Terminator pursuing them in a police car.
+
+                        As they hide in a parking lot, Kyle explains to Sarah that an artificial intelligence defense network, known as Skynet, will become self-aware in the near future and initiate a nuclear holocaust. Sarah's future son John will rally the survivors and lead a resistance movement against Skynet and its army of machines. With the Resistance on the verge of victory, Skynet sent a Terminator back in time to kill Sarah before John is born, to prevent the formation of the Resistance. The Terminator, a Cyberdyne Systems Model 101, is an efficient killing machine with a powerful metal endoskeleton and an external layer of living tissue that makes it appear human.
+                        
+                        Kyle and Sarah are apprehended by police after another encounter with the Terminator. Criminal psychologist Dr. Silberman concludes that Kyle is paranoid and delusional. The Terminator repairs its body and attacks the police station, killing seventeen police officers in its attempt to locate Sarah. Kyle and Sarah escape, steal another car and take refuge in a motel, where they assemble pipe bombs and plan their next move. Kyle admits that he has been in love with Sarah since John gave him a photograph of her, and that he traveled through time to save her; reciprocating his feelings, Sarah kisses Kyle and they have sex.
+                        
+                        The Terminator kills Sarah's mother and impersonates her when Sarah, unaware of the Terminator's ability to mimic voices, attempts to contact her via telephone. When they realize it has reacquired them, they escape in a pickup truck while it chases them on a motorcycle. In the ensuing chase, Kyle is wounded by gunfire while throwing pipe bombs at the Terminator. Enraged‚ Sarah knocks the Terminator off its motorcycle but loses control of the truck, which flips over. The Terminator, now bloodied and badly damaged, hijacks a tank truck and attempts to run down Sarah, but Kyle slides a pipe bomb onto the tanker's hose tube, causing an explosion that burns the flesh from the Terminator's endoskeleton. It pursues them into a factory, where Kyle activates machinery to confuse the Terminator. He jams his final pipe bomb into the Terminator's abdomen, blowing it apart, injuring Sarah, and killing himself. The Terminator's torso reactivates and grabs Sarah. She breaks free and lures it into a hydraulic press, crushing it.
+                        
+                        Months later, a pregnant Sarah is traveling through Mexico, recording audio tapes to pass on to her unborn son, John. She debates whether to tell John that Kyle is his father. At a gas station, a boy takes an instant photograph of her and she buys it — the same photograph that John will give to Kyle. Before driving off, the young boy warns Sarah to be careful of the approaching storm clouds. Sarah looks ahead and drives fearlessly towards it.
+                </p>
+                <p>
+                        In 1984 Los Angeles, a cyborg assassin known as a Terminator arrives from 2029 and steals clothes and guns. Kyle Reese, a human soldier sent back in time from the same year, arrives shortly afterwards. He steals clothes and weapons and evades the police. The Terminator begins systematically killing women named Sarah Connor, whose addresses it finds in the telephone directory. It tracks the last Sarah Connor to a nightclub, but Kyle rescues her. The pair steal a car and escape with the Terminator pursuing them in a police car.
+
+                        As they hide in a parking lot, Kyle explains to Sarah that an artificial intelligence defense network, known as Skynet, will become self-aware in the near future and initiate a nuclear holocaust. Sarah's future son John will rally the survivors and lead a resistance movement against Skynet and its army of machines. With the Resistance on the verge of victory, Skynet sent a Terminator back in time to kill Sarah before John is born, to prevent the formation of the Resistance. The Terminator, a Cyberdyne Systems Model 101, is an efficient killing machine with a powerful metal endoskeleton and an external layer of living tissue that makes it appear human.
+                        
+                        Kyle and Sarah are apprehended by police after another encounter with the Terminator. Criminal psychologist Dr. Silberman concludes that Kyle is paranoid and delusional. The Terminator repairs its body and attacks the police station, killing seventeen police officers in its attempt to locate Sarah. Kyle and Sarah escape, steal another car and take refuge in a motel, where they assemble pipe bombs and plan their next move. Kyle admits that he has been in love with Sarah since John gave him a photograph of her, and that he traveled through time to save her; reciprocating his feelings, Sarah kisses Kyle and they have sex.
+                        
+                        The Terminator kills Sarah's mother and impersonates her when Sarah, unaware of the Terminator's ability to mimic voices, attempts to contact her via telephone. When they realize it has reacquired them, they escape in a pickup truck while it chases them on a motorcycle. In the ensuing chase, Kyle is wounded by gunfire while throwing pipe bombs at the Terminator. Enraged‚ Sarah knocks the Terminator off its motorcycle but loses control of the truck, which flips over. The Terminator, now bloodied and badly damaged, hijacks a tank truck and attempts to run down Sarah, but Kyle slides a pipe bomb onto the tanker's hose tube, causing an explosion that burns the flesh from the Terminator's endoskeleton. It pursues them into a factory, where Kyle activates machinery to confuse the Terminator. He jams his final pipe bomb into the Terminator's abdomen, blowing it apart, injuring Sarah, and killing himself. The Terminator's torso reactivates and grabs Sarah. She breaks free and lures it into a hydraulic press, crushing it.
+                        
+                        Months later, a pregnant Sarah is traveling through Mexico, recording audio tapes to pass on to her unborn son, John. She debates whether to tell John that Kyle is his father. At a gas station, a boy takes an instant photograph of her and she buys it — the same photograph that John will give to Kyle. Before driving off, the young boy warns Sarah to be careful of the approaching storm clouds. Sarah looks ahead and drives fearlessly towards it.
+                </p>
+                <p>
+                        In 1984 Los Angeles, a cyborg assassin known as a Terminator arrives from 2029 and steals clothes and guns. Kyle Reese, a human soldier sent back in time from the same year, arrives shortly afterwards. He steals clothes and weapons and evades the police. The Terminator begins systematically killing women named Sarah Connor, whose addresses it finds in the telephone directory. It tracks the last Sarah Connor to a nightclub, but Kyle rescues her. The pair steal a car and escape with the Terminator pursuing them in a police car.
+
+                        As they hide in a parking lot, Kyle explains to Sarah that an artificial intelligence defense network, known as Skynet, will become self-aware in the near future and initiate a nuclear holocaust. Sarah's future son John will rally the survivors and lead a resistance movement against Skynet and its army of machines. With the Resistance on the verge of victory, Skynet sent a Terminator back in time to kill Sarah before John is born, to prevent the formation of the Resistance. The Terminator, a Cyberdyne Systems Model 101, is an efficient killing machine with a powerful metal endoskeleton and an external layer of living tissue that makes it appear human.
+                        
+                        Kyle and Sarah are apprehended by police after another encounter with the Terminator. Criminal psychologist Dr. Silberman concludes that Kyle is paranoid and delusional. The Terminator repairs its body and attacks the police station, killing seventeen police officers in its attempt to locate Sarah. Kyle and Sarah escape, steal another car and take refuge in a motel, where they assemble pipe bombs and plan their next move. Kyle admits that he has been in love with Sarah since John gave him a photograph of her, and that he traveled through time to save her; reciprocating his feelings, Sarah kisses Kyle and they have sex.
+                        
+                        The Terminator kills Sarah's mother and impersonates her when Sarah, unaware of the Terminator's ability to mimic voices, attempts to contact her via telephone. When they realize it has reacquired them, they escape in a pickup truck while it chases them on a motorcycle. In the ensuing chase, Kyle is wounded by gunfire while throwing pipe bombs at the Terminator. Enraged‚ Sarah knocks the Terminator off its motorcycle but loses control of the truck, which flips over. The Terminator, now bloodied and badly damaged, hijacks a tank truck and attempts to run down Sarah, but Kyle slides a pipe bomb onto the tanker's hose tube, causing an explosion that burns the flesh from the Terminator's endoskeleton. It pursues them into a factory, where Kyle activates machinery to confuse the Terminator. He jams his final pipe bomb into the Terminator's abdomen, blowing it apart, injuring Sarah, and killing himself. The Terminator's torso reactivates and grabs Sarah. She breaks free and lures it into a hydraulic press, crushing it.
+                        
+                        Months later, a pregnant Sarah is traveling through Mexico, recording audio tapes to pass on to her unborn son, John. She debates whether to tell John that Kyle is his father. At a gas station, a boy takes an instant photograph of her and she buys it — the same photograph that John will give to Kyle. Before driving off, the young boy warns Sarah to be careful of the approaching storm clouds. Sarah looks ahead and drives fearlessly towards it.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>
+<script src="js/Game-blog.js"></script>
+<script src="js/extrajavascript.js"></script>

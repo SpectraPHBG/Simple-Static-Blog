@@ -1,0 +1,204 @@
+/*Default navigation*/
+#logo1{
+    font-weight: bold;
+    font-style: italic;
+    font-size: 27px;
+    color: black;
+}
+.flexcontainer1{
+    z-index: 1000;
+    margin: 0 auto;
+    position: fixed;
+    top: 0;
+    background: #dedede;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100vw;
+    height: 70px;
+    box-shadow:0px 5px #00d4d4, 1px 4px 6px #484848;
+}
+.flexcontainer1 ul{
+    list-style: none;
+    display: flex;
+}
+.flexcontainer1 a{
+    width: 130px;
+    display: inline-block;
+    padding: 10px;
+    margin: 0px 5px 0px 5px;
+    text-align: center;
+    line-height: 75px;
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 15px;
+}
+.flexcontainer1 a:hover{
+    color: #00d4d4;
+    transition: color 0.3s ease 0s;
+}
+/*Main content*/
+main{
+    margin: 10vh 0 5vh 0;
+}
+/*Register form*/
+.inner{
+    padding: 5vw 0 0 5vh;
+}
+.center{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    overflow: hidden;
+    flex-direction: column;
+}
+.container-register{
+    margin: 15px;
+    color: gray;
+    font-weight: bold;
+    width: 500px;
+}
+.headline{
+    font-size: 56px;
+    font-weight: bold;
+    margin: 10px;
+    padding-left: 54px;
+    width: 400px;
+    text-align: center;
+    font-family: 'Sofia', cursive;
+}
+.regform{
+    width: 250px;
+    margin: 10px;
+    line-height: 23px;
+}
+.regform input{
+    width: 400px;
+    height: 45px;
+    padding: 18px 10px 10px 15px;
+    border: none;   
+    background: transparent;
+    border-bottom: 2px gray solid;
+    margin: 6px 0 26px 0;
+}
+.regform input[type=date]::-webkit-inner-spin-button{
+    -webkit-appearance: none;
+    display: none;
+}
+.genderform{
+    display: flex;
+    flex-direction: row;
+    width: 220px;
+    margin: 20px;
+    justify-content: space-evenly;
+}
+.regform2{
+    width: 250px;
+    margin: 10px;
+    line-height: 23px;
+}
+.regform2 input{
+    width: 400px;
+    height: 45px;
+    padding: 18px 10px 10px 15px;
+    border: none;   
+    background: transparent;
+    border-bottom: 2px gray solid;
+    margin: 6px 0 26px 0;
+}
+.regform2 .choicebox{
+    margin-left: 2px;
+    width: 270px;
+    height: auto;
+    padding: 4px 4px 4px 15px;
+}
+.checkboxes{
+    display: block;
+    width: 300px;
+    font-weight: normal;
+    margin: 25px 0 25px 10px;
+}
+.checkboxes input{
+    margin: 10px 0 10px 0;
+}
+.buttonbox{
+    margin: 10px;
+    justify-content: center;
+    display: flex;
+}
+.cancelbutton{
+    flex: 50%;
+    background: #ce0000;
+    border: none;
+    color: white;
+    height: 50px;
+}
+.cancelbutton:hover{
+    background: #d43c3c;
+    cursor: pointer;
+}
+.signupbutton{
+    flex: 50%;
+    background: #00b116;
+    border: none;
+    color: white;
+    height: 50px;
+}
+.signupbutton:hover{
+    background: #48c357;
+    cursor: pointer;
+}
+/*Login*/
+.loginbutton{
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    border: none;
+    cursor: pointer;
+    color: #00d4d4;
+    font-size: 30px;
+    font-weight: bold;
+}
+.loginbutton:focus{
+    outline: none;
+}
+@media only screen and (max-width:576px){
+    main{
+        margin: 7vh 0 0vh 0;
+    }
+    .regform,.regform2{
+        width: 100%;
+        margin: 0;
+        line-height: 23px;
+    }
+    .regform input,.regform2 input{
+        width: 100%;
+        height: 45px;
+        border: none;   
+        background: transparent;
+        border-bottom: 2px gray solid;
+    }
+    .inner{
+        padding: 0;
+    }
+    .container-register{
+        margin: 0;
+        color: gray;
+        font-weight: bold;
+        width: 100%;
+    }
+    .headline{
+        font-size: 56p  x;
+        font-weight: bold;
+        margin: 10px;
+        padding-left: 0;
+        width: 100%;
+        text-align: center;
+        font-family: 'Sofia', cursive;
+    }
+}
+/*Extra properties*/

@@ -1,0 +1,247 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NerdFort</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"
+        integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/Login.css">
+    <link rel="stylesheet" href="css/Normalise.css">
+    <link rel="stylesheet" href="css/Game-blog.css">
+    <link rel="shortcut icon" href="img/titleicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sofia&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-iso.css">
+</head>
+</head>
+
+<body class="bgimage">
+    <header>
+        <nav class="flexcontainer1" id="wrapper">
+            <div class="navlogoAll">
+                <img id="icon" class="icon1" src="img/icon.png" alt="Error">
+                <h1 id="logo" class="logo1"> - NerdFort - </h1>
+            </div>
+            <ul>
+                <li><a href="Home.html">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a id="current" href="Login.html">Log In</a></li>
+            </ul>
+        </nav>
+        <div id="wrappermobile">
+            <nav class="flexcontainer2">
+                <div class="navlogoAll">
+                    <img class="icon1" src="img/icon.png" alt="Error">
+                    <h1 class="logo1"> - NerdFort - </h1>
+                </div>
+                <button class="mobilenavbutton" onclick="menuAppear()"><img class="mobilenavicon"
+                        src="img/mobilemenu.png" alt="Error"></button>
+            </nav>
+            <nav class="mobilenav">
+                <div class="mobilecontainer">
+                    <button class="mobilenavbutton1" onclick="menuHide()"><img class="mobilenavicon"
+                            src="img/mobilemenuactive.png" alt="Error"></button>
+                </div>
+                <ul>
+                    <li><a href="Home.html">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a id="current" href="Login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <nav class="nav2">
+            <a href="#" id="sidebutton1">
+                <img class="buttonimgsize" src="img/facebook.png" alt="Error">
+                <img id="b1" class="buttonimgsize1" src="img/facebook1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton2">
+                <img class="buttonimgsize" src="img/twitter.png" alt="Error">
+                <img id="b2" class="buttonimgsize1" src="img/twitter1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton3">
+                <img class="buttonimgsize" src="img/linkedin.png" alt="Error">
+                <img id="b3" class="buttonimgsize1" src="img/linkedin1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton4">
+                <img class="buttonimgsize" src="img/reddit.png" alt="Error">
+                <img id="b4" class="buttonimgsize1" src="img/reddit1.png" alt="Error">
+            </a>
+        </nav>
+    </header>
+    <main class="center">
+        <section class="container-register">
+
+            <p class="headline">Register / <a href="#"><button class="loginbutton">Log
+                        In</button></a></p>
+            <hr>
+            <div class="inner">
+                <form action="#" class="regform">
+                        Name: <br>
+                        <input type="text" name="firstname" placeholder="First Name">
+                        <br>
+                        Last Name: <br>
+                        <input type="text" name="lastname" placeholder="Last Name">
+                        <br>
+                    Email: <br>
+                    <input type="email" name="email" placeholder="example: testmail@gmail.com">
+                    <br>
+                        Repeat Email: <br>
+                        <input type="email" name="email" placeholder="example: testmail@gmail.com">
+                        <br>
+                        Birthday: <br>
+                        <input type="date" name="bday" placeholder="mm/dd/yyyy">
+                        <br>
+                </form>
+                <p style="margin-left: 9px;">Gender:</p> <br>
+                <form action="#" class="genderform">
+                    <input type="radio" name="gender" value="male">
+                    <p>Male</p>
+                    <input type="radio" name="gender" value="female">
+                    <p>Female</p>
+                </form>
+                <form action="#" class="regform2">
+                    Password: <br>
+                    <input type="password" name="pass" placeholder="Enter Password">
+                    <br>
+                    Repeat Password: <br>
+                    <input type="password" name="passrepeat" placeholder="Repeat Password">
+                    <br>
+                </form>
+                <div class="checkboxes">
+                    <input type="checkbox" name="rememberusername">Remember me <br>
+                    <input type="checkbox" name="termsofuse">By creating an account you agree to our <a
+                        href="#">Terms&Privacy</a> <br>
+                </div>
+            </div>
+            <div class="buttonbox">
+                <button class="cancelbutton">Cancel</button>
+                <button class="signupbutton">Sign Up</button>
+            </div>
+        </section>
+    </main>
+    <div class="bootstrap-iso">
+        <footer class="pt-5 pb-4" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        <h5 class="mb-4 font-weight-bold">ABOUT US</h5>
+                        <p class="mb-4">You can find us using one of these methods.</p>
+                        <ul class="f-address">
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fas fa-map-marker"></i></div>
+                                    <div class="col-10">
+                                        <h6 class="font-weight-bold mb-0">Address:</h6>
+                                        <p>183 Black Oak Hollow Road. Oakland</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="far fa-envelope"></i></div>
+                                    <div class="col-10">
+                                        <h6 class="font-weight-bold mb-0">Have any questions?</h6>
+                                        <p><a href="#">Nerdfort@gmail.com</a></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fas fa-phone-volume"></i></div>
+                                    <div class="col-10">
+                                        <h6 class="font-weight-bold mb-0">Address:</h6>
+                                        <p><a href="#">+1 202-555-0171</a></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        <h5 class="mb-4 font-weight-bold">FRESH TWEETS</h5>
+                        <ul class="f-address">
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fab fa-twitter"></i></div>
+                                    <div class="col-10">
+                                        <p class="mb-0"><a href="#">@Nerdfort&trade; </a> WoW Shadowlands Out Now</p>
+                                        <label>10 Mins Ago</label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fab fa-twitter"></i></div>
+                                    <div class="col-10">
+                                        <p class="mb-0"><a href="#">@Nerdfort&trade; </a> Free Warthunder Merch</p>
+                                        <label>1 Day Ago</label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fab fa-twitter"></i></div>
+                                    <div class="col-10">
+                                        <p class="mb-0"><a href="#">@Nerdfort&trade; </a> Interview with Dark Souls
+                                            developer</p>
+                                        <label>5 Days Ago</label>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        <h5 class="mb-4 font-weight-bold">LATEST UPDATES</h5>
+                        <ul class="recent-post">
+                            <li>
+                                <label class="mr-3">28 <br><span>APR</span></label>
+                                <span>New Nerdfort merchandise.</span>
+                            </li>
+                            <li>
+                                <label class="mr-3">29 <br><span>APR</span></label>
+                                <span>Working on new website design.</span>
+                            </li>
+                            <li>
+                                <label class="mr-3">30 <br><span>APR</span></label>
+                                <span>Free Giveaway.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        <h5 class="mb-4 font-weight-bold">CONNECT WITH US</h5>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your Email Address">
+                            <span class="input-group-addon" id="basic-addon2"><i class="fas fa-check"></i></span>
+                        </div>
+                        <ul id="notmobile" class="social-pet mt-4">
+                            <li><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" title="twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" title="google-plus"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" title="instagram"><i class="fab fa-reddit-alien"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright -->
+        <section class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <div class="text-center text-white">
+                            &copy; 2018 Nerdfort&trade;. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
+<script src="js/Game-blog.js"></script>

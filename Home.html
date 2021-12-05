@@ -1,0 +1,355 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>NerdFort</title>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/Home.css">
+    <link rel="stylesheet" href="css/Normalise.css">
+    <link rel="stylesheet" href="css/Game-blog.css">
+    <link rel="shortcut icon" href="img/titleicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap-iso.css">
+</head>
+
+<body class="bgimage">
+    <header class="parallax">
+        <nav class="flexcontainer" id="wrapper">
+            <div class="navlogoAll">
+                <img id="icon" class="icon" src="img/icon.png" alt="Error">
+                <h1 id="logo" class="logo"> - NerdFort - </h1>
+            </div>
+            <ul>
+                <li><a id="current" href="Home.html">Home</a></li>
+                <li><a href="#">Blog</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="Login.html">Log In</a></li>
+            </ul>
+        </nav>
+        <div id="wrappermobile">
+            <nav class="flexcontainer2">
+                <div class="navlogoAll">
+                    <img class="icon1" src="img/icon.png" alt="Error">
+                    <h1 class="logo1"> - NerdFort - </h1>
+                </div>
+                <button class="mobilenavbutton" onclick="menuAppear()"><img class="mobilenavicon"
+                        src="img/mobilemenu.png" alt="Error"></button>
+            </nav>
+            <nav class="mobilenav">
+                <div class="mobilecontainer">
+                    <button class="mobilenavbutton1" onclick="menuHide()"><img class="mobilenavicon"
+                            src="img/mobilemenuactive.png" alt="Error"></button>
+                </div>
+                <ul>
+                    <li><a id="current" href="Home.html">Home</a></li>
+                    <li><a href="#">Blog</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="Login.html">Login</a></li>
+                </ul>
+            </nav>
+        </div>
+        <a href="#jumphere"><button id="jumphere" class="jumpButton" onclick="pageAppear()"></button></a>
+        <nav class="nav2">
+            <a href="#" id="sidebutton1">
+                <img class="buttonimgsize" src="img/facebook.png" alt="Error">
+                <img id="b1" class="buttonimgsize1" src="img/facebook1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton2">
+                <img class="buttonimgsize" src="img/twitter.png" alt="Error">
+                <img id="b2" class="buttonimgsize1" src="img/twitter1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton3">
+                <img class="buttonimgsize" src="img/linkedin.png" alt="Error">
+                <img id="b3" class="buttonimgsize1" src="img/linkedin1.png" alt="Error">
+            </a>
+            <a href="#" id="sidebutton4">
+                <img class="buttonimgsize" src="img/reddit.png" alt="Error">
+                <img id="b4" class="buttonimgsize1" src="img/reddit1.png" alt="Error">
+            </a>
+        </nav>
+        <p id="headlinetext"> - NerdFort - </p>
+        <p id="headlinedesc">Game blog by gamers for gamers
+        </p>
+    </header>
+    <main>
+        <section class="uppersection">
+            <p id="maincontentheadline"> Featured </p>
+            <div class="blogpost">
+                <img class="articleimg" src="img/article 1.jpg" alt="Error">
+                <a class="blogslink" href="World of Warcraft Shadowlands.html">
+                    <img class="articleimgmobile" src="img/article 1.jpg" alt="Error">
+                    <div class="blogarticle">
+                        <div class="bloguser">
+                            <img class="avatar" src="img/user1.jpg" alt="Error">
+                            <div>
+                                <p>SpectraPH</p>
+                                <p>Nov 7 | 1 hr</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="blogtitle">World of Warcraft: Shadowlands Announced</h2>
+                            <p class="blogtext"> A new expansion means sweeping changes to World of Warcraft—and
+                                Shadowlands promises to be
+                                one of the most transformative expansions in years. There's a lot to cover and details
+                                are
+                                still emerging, but consider this your one-stop source for all the news about World of
+                                Warcraft: Shadowlands.</p>
+                        </div>
+                </a>
+                <div class="bottomuiblog">
+                    <hr>
+                    <div class="torow">
+                        <p>17 views</p>
+                        <p id="comment">Write a comment</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="about-article">
+                <img class="authorimg" src="img/author.jpg" alt="Error">
+                <div>
+                    <h2>ABOUT THE AUTHOR OF THIS BLOG </h2>
+                    <p>Hello! My name is Georgi. I am a college student who is in love with making websites. I created
+                        this blog as a university project and also because I love games. Here you will find all ot he
+                        latest news in the world of gaming. My team and I will do our best to provide the best
+                        experience for you. If you wish to contact me for anything you can find me at Twitter <a
+                            class="social" href="#">@SpectraPH1</a></p>
+                </div>
+            </div>
+            <p id="maincontentheadline"> News </p>
+            <div class="blogpost">
+                <img class="articleimg" src="img/article 2.jpg" alt="Error">
+                <a class="blogslink" href="#">
+                    <img class="articleimgmobile2" src="img/article 2.jpg" alt="Error">
+                    <div class="blogarticle">
+                        <div class="bloguser">
+                            <img class="avatar" src="img/user2.jpg" alt="Error">
+                            <div>
+                                <p>LoverPanda</p>
+                                <p>Sep 19 | 21 d</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="blogtitle">Diablo IV: Deep Dive</h2>
+                            <p class="blogtext"> Diablo IV is like the first chapter of a book. We want to tell a big story and we want to tell it, hopefully, for a very long time. Treating this like the first chapter of a book and Lilith as a key character in this story, it feels great knowing that there are still all these other characters that could come back in the future.</p>
+                        </div>
+                </a>
+                <div class="bottomuiblog">
+                    <hr>
+                    <div class="torow">
+                        <p>145 views</p>
+                        <p id="comment">Write a comment</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="blogpost">
+                <img class="articleimg" src="img/article 3.jpg" alt="Error">
+                <a class="blogslink" href="#">
+                    <img class="articleimgmobile3" src="img/article 3.jpg" alt="Error">
+                    <div class="blogarticle">
+                        <div class="bloguser">
+                            <img class="avatar" src="img/user3.jpg" alt="Error">
+                            <div>
+                                <p>Ratatosk</p>
+                                <p>Sep 9 | 1 m</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="blogtitle">Overwatch 2 will have Campaign</h2>
+                            <p class="blogtext">Overwatch 2 is real. After a year of convincing leaks and reports, we've finally gotten a look at Overwatch's sequel. It's got new maps, heroes, and most interestingly, a story mode, expanding on the narrative foundation Blizzard's been building with its character cinematics.</p>
+                        </div>
+                </a>
+                <div class="bottomuiblog">
+                    <hr>
+                    <div class="torow">
+                        <p>1467 views</p>
+                        <p id="comment">Write a comment</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="blogpost">
+                <img class="articleimg" src="img/article 4.jpg" alt="Error">
+                <a class="blogslink" href="#">
+                    <img class="articleimgmobile4" src="img/article 4.jpg" alt="Error">
+                    <div class="blogarticle">
+                        <div class="bloguser">
+                            <img class="avatar" src="img/user1.jpg" alt="Error">
+                            <div>
+                                <p>SpectraPH</p>
+                                <p>Sep 7 | 1 m</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="blogtitle">Deathwing Build Guide</h2>
+                            <p class="blogtext"> We've updated our guide section with the Deathwing build guide written by Kendric.
+
+                                Deathwing is free for all Virtual Ticket Holders and the Hero will go live next week. Feel free to check out the latest PTR Patch Notes and share builds with your friends!
+                                
+                                Deathwing Spotlight</p>
+                        </div>
+                </a>
+                <div class="bottomuiblog">
+                    <hr>
+                    <div class="torow">
+                        <p>16857 views</p>
+                        <p id="comment">Write a comment</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <div class="blogpost">
+                <img class="articleimg" src="img/article 5.jpg" alt="Error">
+                <a class="blogslink" href="#">
+                    <img class="articleimgmobile5" src="img/article 5.jpg" alt="Error">
+                    <div class="blogarticle">
+                        <div class="bloguser">
+                            <img class="avatar" src="img/user3.jpg" alt="Error">
+                            <div>
+                                <p>Ratatosk</p>
+                                <p>Jun 28 | 2 m</p>
+                            </div>
+                        </div>
+                        <div>
+                            <h2 class="blogtitle">Blizzcon 2019 Virtual Ticket</h2>
+                            <p class="blogtext"> Here's another huge event guide for this year's BlizzCon, which is shaping up to be one of the biggest yet, with a possible three new games/expansions being announced. Check out a detailed overview of everything you need to know if you're at the con itself, and if you're just watching on the virtual ticket.</p>
+                        </div>
+                </a>
+                <div class="bottomuiblog">
+                    <hr>
+                    <div class="torow">
+                        <p>89174 views</p>
+                        <p id="comment">Write a comment</p>
+                    </div>
+                </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <div class="bootstrap-iso">
+        <footer class="pt-5 pb-4" id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        <h5 class="mb-4 font-weight-bold">ABOUT US</h5>
+                        <p class="mb-4">You can find us using one of these methods.</p>
+                        <ul class="f-address">
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fas fa-map-marker"></i></div>
+                                    <div class="col-10">
+                                        <h6 class="font-weight-bold mb-0">Address:</h6>
+                                        <p>183 Black Oak Hollow Road. Oakland</p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="far fa-envelope"></i></div>
+                                    <div class="col-10">
+                                        <h6 class="font-weight-bold mb-0">Have any questions?</h6>
+                                        <p><a href="#">Nerdfort@gmail.com</a></p>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fas fa-phone-volume"></i></div>
+                                    <div class="col-10">
+                                        <h6 class="font-weight-bold mb-0">Address:</h6>
+                                        <p><a href="#">+1 202-555-0171</a></p>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        <h5 class="mb-4 font-weight-bold">FRESH TWEETS</h5>
+                        <ul class="f-address">
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fab fa-twitter"></i></div>
+                                    <div class="col-10">
+                                        <p class="mb-0"><a href="#">@Nerdfort&trade; </a> WoW Shadowlands Out Now</p>
+                                        <label>10 Mins Ago</label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fab fa-twitter"></i></div>
+                                    <div class="col-10">
+                                        <p class="mb-0"><a href="#">@Nerdfort&trade; </a> Free Warthunder Merch</p>
+                                        <label>1 Day Ago</label>
+                                    </div>
+                                </div>
+                            </li>
+                            <li>
+                                <div class="row">
+                                    <div class="col-1"><i class="fab fa-twitter"></i></div>
+                                    <div class="col-10">
+                                        <p class="mb-0"><a href="#">@Nerdfort&trade; </a> Interview with Dark Souls
+                                            developer</p>
+                                        <label>5 Days Ago</label>
+                                    </div>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        <h5 class="mb-4 font-weight-bold">LATEST UPDATES</h5>
+                        <ul class="recent-post">
+                            <li>
+                                <label class="mr-3">28 <br><span>APR</span></label>
+                                <span>New Nerdfort merchandise.</span>
+                            </li>
+                            <li>
+                                <label class="mr-3">29 <br><span>APR</span></label>
+                                <span>Working on new website design.</span>
+                            </li>
+                            <li>
+                                <label class="mr-3">30 <br><span>APR</span></label>
+                                <span>Free Giveaway.</span>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="col-lg-3 col-md-6 col-sm-6 mt-2 mb-4">
+                        <h5 class="mb-4 font-weight-bold">CONNECT WITH US</h5>
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Your Email Address">
+                            <span class="input-group-addon" id="basic-addon2"><i class="fas fa-check"></i></span>
+                        </div>
+                        <ul id="notmobile" class="social-pet mt-4">
+                            <li><a href="#" title="facebook"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#" title="twitter"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#" title="google-plus"><i class="fab fa-linkedin-in"></i></a></li>
+                            <li><a href="#" title="instagram"><i class="fab fa-reddit-alien"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- Copyright -->
+        <section class="copyright">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 ">
+                        <div class="text-center text-white">
+                            &copy; 2018 Nerdfort&trade;. All Rights Reserved.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+
+</html>
+<script src="js/Game-blog.js"></script>
+<script src="js/extrajavascript.js"></script>
